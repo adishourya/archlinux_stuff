@@ -1,0 +1,5 @@
+[PlasmaRunnerManager]
+LaunchCounts=7 exec:///usr/bin/konsole,10 exec:///usr/bin/kitty,1 exec:///usr/bin/dolphin,1 exec:///usr/lib/firefox/firefox,1 exec:///usr/bin/xterm
+
+[PlasmaRunnerManager][History]
+44218a36-30be-4384-9b2b-332266ef43b2=dol,ter,termi,term,termin,k,ki,kit,fire

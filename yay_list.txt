@@ -1,0 +1,2 @@
+sddm-git 
+hyprland-git

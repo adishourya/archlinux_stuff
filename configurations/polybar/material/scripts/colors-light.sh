@@ -3,10 +3,11 @@
 # Color files
 PFILE="$HOME/.config/polybar/material/colors.ini"
 RFILE="$HOME/.config/polybar/material/scripts/rofi/colors.rasi"
+I3_CONFIG_FILE="$HOME/.config/i3/config"
 
-# Change colors
+# Change colors for Polybar and Rofi
 change_color() {
-	# polybar
+	# Polybar
 	sed -i -e 's/background = #.*/background = #FFFFFF/g' $PFILE
 	sed -i -e 's/foreground = #.*/foreground = #2E2E2E/g' $PFILE
 	sed -i -e 's/foreground-alt = #.*/foreground-alt = #656565/g' $PFILE
@@ -15,23 +16,43 @@ change_color() {
 	sed -i -e 's/secondary = #.*/secondary = #E53935/g' $PFILE
 	sed -i -e 's/alternate = #.*/alternate = #7cb342/g' $PFILE
 	
-	# rofi
+	# Rofi
 	cat > $RFILE <<- EOF
 	/* colors */
 
 	* {
-	  al:   #00000000;
-	  bg:   #FFFFFFFF;
-	  bga:  ${AC}33;
-	  bar:  ${MF}FF;
-	  fg:   #2E2E2EFF;
-	  ac:   ${AC}FF;
+		al:   #00000000;
+		bg:   #FFFFFFFF;
+		bga:  ${AC}33;
+		bar:  ${MF}FF;
+		fg:   #2E2E2EFF;
+		ac:   ${AC}FF;
 	}
 	EOF
-	
+
+	# Restart Polybar
 	polybar-msg cmd restart
+
+	# Update i3 colors
+	update_i3_colors
 }
 
+# Function to update i3 colors
+update_i3_colors() {
+	# Read colors from the colors file
+	eval $(awk '/al:/ {printf "al=%s\n", $2} /bg:/ {printf "bg=%s\n", $2} /bga:/ {printf "bga=%s\n", $2} /bar:/ {printf "bar=%s\n", $2} /fg:/ {printf "fg=%s\n", $2} /ac:/ {printf "ac=%s\n", $2}' $RFILE)
+
+	# Update the i3 config file with new colors
+	sed -i "s/^client.focused .*/client.focused          $ac $ac $fg $ac   $ac/" $I3_CONFIG_FILE
+	sed -i "s/^client.focused_inactive .*/client.focused_inactive $bg $bg $fg $bg   $bg/" $I3_CONFIG_FILE
+	sed -i "s/^client.unfocused .*/client.unfocused        $bg $bg $fg $bg   $bg/" $I3_CONFIG_FILE
+	sed -i "s/^client.urgent .*/client.urgent           $bga $bga $fg $bga   $bga/" $I3_CONFIG_FILE
+
+	# Reload i3 config
+	i3-msg reload
+}
+
+# Color options
 if  [[ $1 = "--amber" ]]; then
 	MF="#2E2E2E"
 	AC="#ffb300"
