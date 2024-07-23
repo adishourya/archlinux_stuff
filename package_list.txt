@@ -31,4 +31,7 @@ asusctl
 supergfxctl
 hyprland
 waybar
-hyprpaper
+swaybg
+thunar
+
+

@@ -107,7 +107,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
 alias pacfile="sudo pacman -S --needed -< ~/Documents/archlinux_stuff/package_list.txt"
-alias yayfile="sudo pacman -S --needed -< ~/Documents/archlinux_stuff/yay_list.txt"
+alias yayfile="yay -S --needed -< ~/Documents/archlinux_stuff/yay_list.txt"
 alias ls="exa --icons"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

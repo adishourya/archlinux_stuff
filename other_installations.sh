@@ -45,5 +45,10 @@
 # cd yay-bin
 # makepkg -si
 
-# end 4 setup of hyprland.. this also has uninstall script
-bash <(curl -s "https://end-4.github.io/dots-hyprland-wiki/setup.sh")
+# ags
+mkdir -p ~/.config/ags
+git clone https://github.com/Aylur/ags.git /tmp/ags
+cp -r /tmp/ags/example/simple-bar/* ~/.config/ags
+
+# optionally setup types
+ags --init -c ~/.config/ags/config.js
