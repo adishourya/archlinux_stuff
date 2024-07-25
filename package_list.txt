@@ -32,7 +32,6 @@ supergfxctl
 hyprland
 waybar
 swaybg
-thunar
 zed
 
 

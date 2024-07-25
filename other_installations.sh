@@ -45,6 +45,9 @@
 # cd yay-bin
 # makepkg -si
 
+# hyprland plugins
+hyprpm add https://github.com/hyprwm/hyprland-plugins
+
 # ags
 mkdir -p ~/.config/ags
 git clone https://github.com/Aylur/ags.git /tmp/ags
