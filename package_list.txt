@@ -1,3 +1,4 @@
+exa
 kitty
 github-cli
 firefox
@@ -7,31 +8,17 @@ neovim
 zsh
 nitrogen
 p7zip
-i3-wm
 xclip
-polybar
 ripgrep
 calc
 bc
-rofi
-gpick
-hyprland
-bun
-dart-sass
 fd
 brightnessctl
-swww
-hyprpicker
-slurp
 wf-recorder
 wl-clipboard
-wayshot
 swappy
-asusctl
-supergfxctl
-hyprland
-waybar
 swaybg
-zed
+waybar
+gnome-bluetooth-3.0
 
 

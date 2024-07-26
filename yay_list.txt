@@ -1,5 +1,4 @@
-hyprland-git
-aylurs-gtk-shell-git 
+aylurs-gtk-shell
 bun-bin
 dart-sass
 fd
@@ -13,5 +12,7 @@ wf-recorder
 wl-clipboard
 wayshot
 swappy
+supergfxctl
+
 asusctl
 supergfxctl
