@@ -1,4 +1,8 @@
 exa
+hypridle
+hyprlock
+evince
+nautilus
 kitty
 github-cli
 firefox

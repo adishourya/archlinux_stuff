@@ -1,4 +1,6 @@
 
+# git config --global user.email "shourya.aditya10@gmail.com"                                                                                 128 ↵
+# git config --global user.name "adi"                        
 
 #make sure github-cli is installed for this
 # gh repo clone adishourya/neovim_config ~/.config/nvim
@@ -46,7 +48,7 @@
 # makepkg -si
 
 # hyprland plugins
-hyprpm add https://github.com/hyprwm/hyprland-plugins
+# hyprpm add https://github.com/hyprwm/hyprland-plugins
 
 # ags
 # mkdir -p ~/.config/ags
