@@ -16,3 +16,4 @@ supergfxctl
 
 asusctl
 supergfxctl
+gnome-shell-pomodoro

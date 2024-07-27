@@ -1,4 +1,5 @@
 exa
+catfish
 hypridle
 hyprlock
 evince
