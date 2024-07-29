@@ -1,5 +1,5 @@
 #!/usr/bin/zsh
-selected_file=$(fd . -t f ~ | /home/adi/.fzf/bin/fzf)
+selected_file=$(fd . -t f -E d ~ | /home/adi/.fzf/bin/fzf)
 if [ -n "$selected_file" ]; then
 	systemd-run --user xdg-open "$selected_file"
 fi
