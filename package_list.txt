@@ -1,3 +1,4 @@
+fuse2
 exa
 catfish
 hypridle
