@@ -14,6 +14,8 @@ print_timer() {
 
 # Check if an argument is provided, prompt the user if not
 if [ -z "$1" ]; then
+	read -p "Mins: " input_minutes
+
 	if [ -z "$input_minutes" ]; then
 		total_seconds=$(( 45 * 60 ))
 	else
