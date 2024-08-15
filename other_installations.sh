@@ -1,6 +1,7 @@
+#!/bin/bash
 
-# git config --global user.email "shourya.aditya10@gmail.com"                                                                                 128 ↵
-# git config --global user.name "adi"                        
+git config --global user.email "shourya.aditya10@gmail.com"
+git config --global user.name "adi"
 
 #make sure github-cli is installed for this
 # gh repo clone adishourya/neovim_config ~/.config/nvim
@@ -26,7 +27,7 @@
 
 
 #------ For Elenapan's Awesome config
-# git clone https://aur.archlinux.org/awesome-git.git ./awesome_git 
+# git clone https://aur.archlinux.org/awesome-git.git ./awesome_git
 # cd ./awesome_git/
 # makepkg -fsri
 
@@ -51,9 +52,14 @@
 # hyprpm add https://github.com/hyprwm/hyprland-plugins
 
 # ags
-# mkdir -p ~/.config/ags
-# git clone https://github.com/Aylur/ags.git /tmp/ags
-# cp -r /tmp/ags/example/simple-bar/* ~/.config/ags
+#mkdir -p ~/.config/ags
+#git clone https://github.com/Aylur/ags.git /tmp/ags
+#cp -r /tmp/ags/example/simple-bar/* ~/.config/ags
 #
 # # optionally setup types
-# ags --init -c ~/.config/ags/config.js
+#ags --init -c ~/.config/ags/config.js
+
+# make zed default file opener
+1350  xdg-mime default ~/.local/share/applications/zed.desktop text/*\n
+1351  xdg-mime default ~/.local/share/applications/zed.desktop 'text/*'\n
+1352  xdg-mime query default 'text/*'\n

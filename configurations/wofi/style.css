@@ -1,0 +1,44 @@
+#window {
+	border-radius: 20px;
+	background-color: #0f1417; /* Darker background for the window */
+	color: #a9b7c6; /* Text color matching JetBrains Dark */
+}
+
+#input {
+	padding: 4px;
+	border-radius: 14px 14px 0 0;
+	font-size: 16px;
+	background-color: #0f1417; /* JetBrains dark input background */
+	border: none;
+	color: #dddddd; /* Light text for input field */
+}
+
+#input:focus {
+	box-shadow: none;
+}
+
+#scroll {
+	border-radius: 14px;
+	background-color: #0f1515; /* Scroll background, subtle contrast */
+	margin: 0 12px 12px;
+}
+
+#inner-box {
+	border-radius: 14px;
+	padding: 12px;
+	background-color: #0f1417; /* Inner box matching window color */
+}
+
+#entry {
+	padding: 8px;
+	color: #ffffff; /* Light text for entries */
+}
+
+#entry:selected {
+	border-radius: 8px;
+	background-color: #1b1f32; /* Selected entry background for contrast */
+}
+
+#entry image {
+	margin-right: 8px;
+}

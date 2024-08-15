@@ -1,36 +1,28 @@
 #!/bin/bash
 
 # Menu options with icons
-options="📂 Open File\n🧮 Run Calculator\n🚀 Open Application"
+options="📂 Open File\n🧮 Run Calculator"
 
 # Path to fzf
 FZF_PATH=~/.fzf/bin/fzf
 
 # Function to handle the "Open File" option
 open_file() {
-		selected_file=$(fd . -t f -E d ~ | $FZF_PATH --prompt="📂  Select a file: ")
+		# selected_file=$(fd . -t f --exclude ~/anaconda3 | $FZF_PATH --prompt="📂  Select a file: ")
+		selected_file=$(fd . -t f --exclude 'anaconda3' ~ | $FZF_PATH --prompt="📂  Select a file: ")
 		if [ -n "$selected_file" ]; then
-				systemd-run --user xdg-open "$selected_file"
+				# systemd-run --user xdg-open "$selected_file"
+				xdg-open "$selected_file"
 				exit
 		fi
 }
+
+
 
 # Function to handle the "Run Calculator" option
 run_calculator() {
 		qalc
 		exit
-}
-
-# Function to handle the "Open Application" option
-
-# # Function to handle the "Open Application" option
-open_application() {
-		# selected_app=$(ls /usr/share/applications | awk -F '.desktop' '{ print $1 }' | $FZF_PATH --prompt="🚀 Select an application: ")
-		selected_app=$(compgen -c | $FZF_PATH --prompt="🚀 Select an application: ")
-		if [ -n "$selected_app" ]; then
-				systemd-run --user "$selected_app"
-				exit
-		fi
 }
 
 # Check for command-line argument
@@ -41,9 +33,6 @@ if [ $# -gt 0 ]; then
 						;;
 				"calculator")
 						run_calculator
-						;;
-				"application")
-						open_application
 						;;
 				*)
 						echo "Invalid argument. Use 'file', 'calculator', or 'application'."

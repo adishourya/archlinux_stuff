@@ -12,6 +12,7 @@ firefox
 git
 nerd-fonts
 neovim
+zed
 zsh
 nitrogen
 p7zip
@@ -27,5 +28,3 @@ swappy
 swaybg
 waybar
 gnome-bluetooth-3.0
-
-

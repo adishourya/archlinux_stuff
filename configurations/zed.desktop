@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Zed
+Exec=/home/adi/.local/bin/zed %F
+Icon=zed
+Type=Application
+MimeType=text/*;
+Terminal=false
