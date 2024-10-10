@@ -1,0 +1,14 @@
+# Alacritty color scheme exported from Neovim
+
+[colors]
+[colors.primary]
+foreground = '#bebebe'
+background = '#1a2026'
+
+[colors.selection]
+foreground = '#1a2026'
+background = '#bebebe'
+
+[colors.cursor]
+text = '#1a2026'
+cursor = '#bebebe'

@@ -1,0 +1,71 @@
+{
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/adi/.cursor-tutor": "__default__profile__",
+            "file:///home/adi/um/sem3/res_internship/theirs/ml-4m": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1725966543742": "__default__profile__"
+        }
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "f8653822bb7bba6b69a46ba521ba99b1762bc0553f64239a966ef92a3b36cd6a",
+    "telemetry.devDeviceId": "ec5e2cef-980c-43ec-b719-e6aa5eb18ec5",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/adi/.cursor-tutor"
+            },
+            {
+                "folderUri": "file:///home/adi/um/sem3/res_internship/theirs/ml-4m"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1725966543742"
+            }
+        ]
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#181818",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#d6d6dd",
+            "background": "#181818",
+            "editorBackground": "#181818",
+            "titleBarBackground": "#181818",
+            "activityBarBackground": "#181818",
+            "sideBarBackground": "#181818",
+            "statusBarBackground": "#181818",
+            "statusBarNoFolderBackground": "#181818"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/adi/um/sem3/res_internship/theirs/ml-4m",
+            "backupPath": "/home/adi/.config/Cursor/Backups/cfa5918f502e543b3ea03adabb124175",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 0,
+                "width": 3840,
+                "height": 1566
+            }
+        },
+        "openedWindows": []
+    }
+}

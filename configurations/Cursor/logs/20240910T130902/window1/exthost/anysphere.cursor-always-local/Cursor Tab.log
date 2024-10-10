@@ -1,0 +1,22 @@
+2024-09-10 13:09:05.965 [info] CURSOR LOG: Finished creating provider!
+2024-09-10 13:10:23.897 [info] CURSOR LOG: Finished creating provider!
+2024-09-10 13:10:51.852 [info] CURSOR LOG: Finished creating provider!
+2024-09-10 13:12:18.602 [info] CURSOR LOG: creating client to https://us-eu.gcpp.cursor.sh
+2024-09-10 13:12:18.602 [info] CURSOR LOG: restFunc initiated 3422aa32-f296-4f2e-83c5-108514a549fa
+2024-09-10 13:12:20.094 [info] CURSOR LOG: Done streaming cpp with id 3422aa32-f296-4f2e-83c5-108514a549fa
+2024-09-10 13:12:20.094 [info] CPP RT LOG: Time taken for streaming cpp 1492.96923828125 with request 3422aa32-f296-4f2e-83c5-108514a549fa
+2024-09-10 13:12:20.094 [info] CPP Request Log with id 3422aa32-f296-4f2e-83c5-108514a549fa
+2024-09-10 13:12:20.094 [info] =======>Model input 
+2024-09-10 13:12:20.094 [info] =======>Model output 
+from typing import Iterable, List, Optional
+
+import numpy as np
+2024-09-10 13:12:20.094 [info] =======>Debug stream time 250.12357300147414
+2024-09-10 13:12:20.094 [info] =======>Debug ttft time 228.65579500049353
+2024-09-10 13:12:20.095 [info] Average of latest 20 ttft time 228.65579500049353
+2024-09-10 13:12:20.095 [info] Average of latest 20 stream time 250.12357300147414
+2024-09-10 13:12:20.095 [info] Average of latest 20 total time NaN
+2024-09-10 13:12:20.095 [info] Average of latest 20 client time 1492.96923828125
+2024-09-10 13:12:20.095 [info] Average of latest 20 discrepencies NaN
+2024-09-10 13:12:20.095 [info] CPP RT LOG: All stats {"streamingtime":1492.96923828125,"actualTtftFromStart":1545.937255859375,"timeTillServerRequest":53.57470703125,"requestToTtft":1492.362548828125,"totalTime":1546.20166015625}
+2024-09-10 13:12:20.095 [info] CURSOR LOG: restFunc done 3422aa32-f296-4f2e-83c5-108514a549fa

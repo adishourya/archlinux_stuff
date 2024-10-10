@@ -1,5 +1,11 @@
 allow_images=true
 no_actions=true
+location = 1
 hide_scroll=true
-width=34%
-height=34%
+width=30%
+height=94%
+xoffset=10
+yoffset=15
+
+hide_scroll=true
+prompt=

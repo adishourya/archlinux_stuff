@@ -1,0 +1,88 @@
+2024-09-10 13:09:05.965 [error] Error: Command failed: git config --get remote.origin.url
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:514:28)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:337:12)
+2024-09-10 13:09:06.193 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2024-09-10 13:10:21.947 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-10 13:10:21.947 [error] NoWorkspaceUriError
+2024-09-10 13:10:23.898 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-10 13:10:23.898 [error] Error: Command failed: git config --get remote.origin.url
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:514:28)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:337:12)
+2024-09-10 13:10:24.127 [info] Creating merkle client.
+2024-09-10 13:10:24.127 [info] Done creating merkle client.
+2024-09-10 13:10:24.127 [info] Doing a startup handshake.
+2024-09-10 13:10:24.135 [info] Finished initializing merkle tree in 8.200747000053525 ms.
+2024-09-10 13:10:24.136 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-10 13:10:24.138 [info] Handshake start
+2024-09-10 13:10:24.175 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/adi/.config/Cursor/User/workspaceStorage/2ab6eaf5ab3fd270c336cd24ae09f6e5/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2024-09-10 13:10:24.752 [info] Handshake timing: 615.6432070005685
+2024-09-10 13:10:24.752 [info] Handshake result: {"status":"STATUS_EMPTY","repoName":"0d21ef9b-a902-4bb5-bd70-bc787497ef8f"}
+2024-09-10 13:10:24.752 [info] Starting fast remote sync.
+2024-09-10 13:10:24.752 [info] Total num embeddable files: 11
+2024-09-10 13:10:24.753 [info] Root hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-10 13:10:24.753 [info] Starting repository upload from scratch.
+2024-09-10 13:10:24.753 [info] Uploading 11 files.
+2024-09-10 13:10:25.585 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-10 13:10:25.586 [info] Creating merkle client.
+2024-09-10 13:10:25.586 [info] Done creating merkle client.
+2024-09-10 13:10:25.586 [info] Doing a startup handshake.
+2024-09-10 13:10:25.588 [info] Finished initializing merkle tree in 1.7038969993591309 ms.
+2024-09-10 13:10:25.588 [info] Indexing job successfully done or aborted.
+2024-09-10 13:10:25.588 [info] Doing the initial handshake with hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-10 13:10:25.589 [info] Handshake start
+2024-09-10 13:10:26.189 [info] Handshake timing: 600.6984769999981
+2024-09-10 13:10:26.189 [info] Handshake result: {"status":"STATUS_EMPTY","repoName":"0d21ef9b-a902-4bb5-bd70-bc787497ef8f"}
+2024-09-10 13:10:26.190 [info] Starting fast remote sync.
+2024-09-10 13:10:26.190 [info] Total num embeddable files: 11
+2024-09-10 13:10:26.190 [info] Root hash: d21b43a84a62106a8fab0b3648855de04bf92b2c0f28ed432578ca92eccb720d
+2024-09-10 13:10:26.190 [info] Starting repository upload from scratch.
+2024-09-10 13:10:26.191 [info] Uploading 11 files.
+2024-09-10 13:10:51.852 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-10 13:10:52.120 [info] Creating merkle client.
+2024-09-10 13:10:52.120 [info] Done creating merkle client.
+2024-09-10 13:10:52.120 [info] Doing a startup handshake.
+2024-09-10 13:10:52.160 [info] Finished initializing merkle tree in 39.88935200124979 ms.
+2024-09-10 13:10:52.173 [info] Doing the initial handshake with hash: 83c99b0c366a706834d762bb3ed7f72bc419286fe89c52d77527ec8a6cb4406e
+2024-09-10 13:10:52.175 [info] Handshake start
+2024-09-10 13:10:52.186 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/adi/.config/Cursor/User/workspaceStorage/8e51f26451380ec2a02578e62c36f755/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2024-09-10 13:10:52.799 [info] Handshake timing: 625.7296140007675
+2024-09-10 13:10:52.800 [info] Handshake result: {"status":"STATUS_EMPTY","repoName":"0de77fe3-56fa-44a1-b36a-e57ae6c614a2"}
+2024-09-10 13:10:52.800 [info] Starting fast remote sync.
+2024-09-10 13:10:52.800 [info] Total num embeddable files: 183
+2024-09-10 13:10:52.800 [info] Root hash: 83c99b0c366a706834d762bb3ed7f72bc419286fe89c52d77527ec8a6cb4406e
+2024-09-10 13:10:52.800 [info] Starting repository upload from scratch.
+2024-09-10 13:10:52.802 [info] Uploading 183 files.
+2024-09-10 13:10:53.569 [info] Repo client: syncing embeddings with backend:  https://repo42.cursor.sh
+2024-09-10 13:10:53.570 [info] Creating merkle client.
+2024-09-10 13:10:53.570 [info] Done creating merkle client.
+2024-09-10 13:10:53.570 [info] Doing a startup handshake.
+2024-09-10 13:10:53.572 [info] Indexing job successfully done or aborted.
+2024-09-10 13:10:53.591 [info] Finished initializing merkle tree in 20.683697000145912 ms.
+2024-09-10 13:10:53.591 [info] Doing the initial handshake with hash: 83c99b0c366a706834d762bb3ed7f72bc419286fe89c52d77527ec8a6cb4406e
+2024-09-10 13:10:53.592 [info] Handshake start
+2024-09-10 13:10:53.998 [info] Handshake timing: 406.87899899855256
+2024-09-10 13:10:53.999 [info] Handshake result: {"status":"STATUS_EMPTY","repoName":"0de77fe3-56fa-44a1-b36a-e57ae6c614a2"}
+2024-09-10 13:10:53.999 [info] Starting fast remote sync.
+2024-09-10 13:10:53.999 [info] Total num embeddable files: 183
+2024-09-10 13:10:53.999 [info] Root hash: 83c99b0c366a706834d762bb3ed7f72bc419286fe89c52d77527ec8a6cb4406e
+2024-09-10 13:10:53.999 [info] Starting repository upload from scratch.
+2024-09-10 13:10:54.000 [info] Uploading 183 files.
+2024-09-10 13:11:49.108 [info] Completed 50 jobs for absoluteDirectoryPath: undefined
+2024-09-10 13:12:21.720 [info] Search by message took 14.5638100001961ms for query ""
+2024-09-10 13:12:21.720 [info] Search by message took 29.627682998776436ms for query ""
+2024-09-10 13:12:21.720 [info] Search by sha took 21.739792000502348ms for query ""
+2024-09-10 13:12:21.734 [info] Search by message took 14.44408500008285ms for query ""
+2024-09-10 13:12:21.734 [info] Search by sha took 22.830474998801947ms for query ""
+2024-09-10 13:12:21.737 [info] Search by sha took 9.635892000049353ms for query ""
+2024-09-10 13:12:25.857 [info] Search by message took 16.61592400074005ms for query ""
+2024-09-10 13:12:25.860 [info] Search by sha took 11.202963000163436ms for query ""

@@ -1,0 +1,20 @@
+file:///home/adi/code/um/sem3/res_internship/datasets/MEDPIX-ClinQA/processing.py {"mtime":1726905364790,"ctime":1726871730206,"size":567,"etag":"3d36ec2poi9","orphaned":false,"typeId":""}
+from datasets import Dataset, Features, Value, Image
+import pandas as pd
+
+df = pd.read_csv("dataset.csv")
+
+# Convert the DataFrame to a Hugging Face Dataset with image features
+features = Features({
+    'image_id':Image(),
+    'mode':Value('string'),
+    'case_id':Value('string'),
+    'question':Value('string'),
+    'answer':Value('string'),
+})
+
+# Create a dataset from the DataFrame
+dataset = Dataset.from_pandas(df, features=features)
+
+# Now you can push the dataset to the Hugging Face Hub or work with it locally
+dataset.push_to_hub("adishourya/MEDPIX-ClinQA")

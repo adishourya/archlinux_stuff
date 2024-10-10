@@ -1,0 +1,69 @@
+2024-09-10 13:09:05.278 [info] Log level: Info
+2024-09-10 13:09:05.278 [info] Validating found git in: "git"
+2024-09-10 13:09:05.278 [info] Using git "2.46.0" from "git"
+2024-09-10 13:10:23.877 [info] Log level: Info
+2024-09-10 13:10:23.877 [info] Validating found git in: "git"
+2024-09-10 13:10:23.877 [info] Using git "2.46.0" from "git"
+2024-09-10 13:10:23.877 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-10 13:10:23.877 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-10 13:10:23.889 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-10 13:10:23.889 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-10 13:10:23.898 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-10 13:10:23.898 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-10 13:10:24.113 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-10 13:10:24.113 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-10 13:10:24.193 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-10 13:10:24.193 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-10 13:10:24.940 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-10 13:10:24.940 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-10 13:10:25.521 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-10 13:10:25.521 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-10 13:10:51.280 [info] Log level: Info
+2024-09-10 13:10:51.280 [info] Validating found git in: "git"
+2024-09-10 13:10:51.280 [info] Using git "2.46.0" from "git"
+2024-09-10 13:10:51.280 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-10 13:10:51.632 [info] > git rev-parse --git-dir --git-common-dir [347ms]
+2024-09-10 13:10:51.642 [info] Open repository: /home/adi/um/sem3/res_internship/theirs/ml-4m
+2024-09-10 13:10:51.824 [info] > git rev-parse --show-toplevel [9ms]
+2024-09-10 13:10:51.825 [info] > git config --get commit.template [16ms]
+2024-09-10 13:10:51.851 [info] > git rev-parse --show-toplevel [15ms]
+2024-09-10 13:10:51.859 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-09-10 13:10:51.867 [warning] ENOENT: no such file or directory, open '/home/adi/um/sem3/res_internship/theirs/ml-4m/.git/refs/remotes/origin/main'
+2024-09-10 13:10:51.867 [info] > git rev-parse --show-toplevel [8ms]
+2024-09-10 13:10:51.879 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-10 13:10:51.881 [info] > git rev-parse refs/remotes/origin/main [15ms]
+2024-09-10 13:10:51.928 [info] > git status -z -uall [40ms]
+2024-09-10 13:10:51.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2024-09-10 13:10:51.979 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-09-10 13:10:51.979 [warning] git config failed: Failed to execute git
+2024-09-10 13:10:51.987 [info] > git config --get commit.template [23ms]
+2024-09-10 13:10:51.997 [info] > git reflog main --grep-reflog=branch: Created from *. [10ms]
+2024-09-10 13:10:52.109 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [105ms]
+2024-09-10 13:10:52.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [19ms]
+2024-09-10 13:10:52.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [36ms]
+2024-09-10 13:10:52.159 [warning] ENOENT: no such file or directory, open '/home/adi/um/sem3/res_internship/theirs/ml-4m/.git/refs/remotes/origin/main'
+2024-09-10 13:10:52.160 [info] > git check-ignore -v -z --stdin [9ms]
+2024-09-10 13:10:52.161 [info] > git config --local branch.main.vscode-merge-base origin/main [18ms]
+2024-09-10 13:10:52.171 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2024-09-10 13:10:52.173 [info] > git config --get commit.template [3ms]
+2024-09-10 13:10:52.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-10 13:10:52.194 [warning] ENOENT: no such file or directory, open '/home/adi/um/sem3/res_internship/theirs/ml-4m/.git/refs/remotes/origin/main'
+2024-09-10 13:10:52.196 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-10 13:10:52.238 [info] > git status -z -uall [35ms]
+2024-09-10 13:10:52.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-09-10 13:10:52.265 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2024-09-10 13:10:52.273 [info] > git config --local branch.main.vscode-merge-base [9ms]
+2024-09-10 13:10:52.281 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [8ms]
+2024-09-10 13:10:52.288 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2024-09-10 13:10:52.290 [info] > git diff --name-status -z --diff-filter=ADMR 2db01252093c45e7a58ebe4d1efb9361df8ca716...refs/remotes/origin/main [2ms]
+2024-09-10 13:10:56.472 [info] > git show --textconv :run_training_4m.py [9ms]
+2024-09-10 13:10:56.473 [info] > git ls-files --stage -- /home/adi/um/sem3/res_internship/theirs/ml-4m/run_training_4m.py [1ms]
+2024-09-10 13:10:56.483 [info] > git cat-file -s 508817269767081d24deac6f86b01fcfe4851f89 [2ms]
+2024-09-10 13:12:21.535 [info] > git check-ignore -v -z --stdin [3ms]

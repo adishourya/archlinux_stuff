@@ -1,0 +1,2 @@
+[Plugins][Favorites]
+plugins=krunner_services,krunner_systemsettings,calculator,krunner_shell,org.kde.datetime,baloosearch,krunner_recentdocuments,krunner_powerdevil,unitconverter

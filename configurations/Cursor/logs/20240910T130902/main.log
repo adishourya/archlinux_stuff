@@ -1,0 +1,12 @@
+2024-09-10 13:09:03.094 [info] update#setState disabled
+2024-09-10 13:09:03.101 [info] update#ctor - updates are disabled as there is no update URL
+2024-09-10 13:09:03.138 [error] [storage state.vscdb] error checking size of workbench.panel.aichat.view.aichat.chatdata: Error: Unexpected number of rows - 0
+2024-09-10 13:09:03.138 [error] [storage state.vscdb] error checking size of src.vs.platform.reactivestorage.browser.reactiveStorageServiceImpl.persistentStorage.workspaceUser: Error: Unexpected number of rows - 0
+2024-09-10 13:09:03.141 [error] [uncaught exception in main]: Error: SQLITE_CANTOPEN: unable to open database file
+2024-09-10 13:09:03.141 [error] Error: SQLITE_CANTOPEN: unable to open database file
+2024-09-10 13:10:22.074 [info] Extension host with pid 28327 exited with code: 0, signal: unknown.
+2024-09-10 13:10:50.227 [info] Extension host with pid 28903 exited with code: 0, signal: unknown.
+2024-09-10 13:10:50.235 [info] Extension host with pid 28874 exited with code: 0, signal: unknown.
+2024-09-10 13:10:51.236 [error] Extension host with pid 28874 still exists, forcefully killing it...
+2024-09-10 13:12:39.381 [info] Extension host with pid 29005 exited with code: 0, signal: unknown.
+2024-09-10 13:12:39.421 [info] Extension host with pid 28985 exited with code: 0, signal: unknown.

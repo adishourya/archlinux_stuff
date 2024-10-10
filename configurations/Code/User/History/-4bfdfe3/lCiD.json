@@ -1,0 +1,7 @@
+{
+    "editor.fontFamily": "'Simple'",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "editor.lineHeight": 40
+}

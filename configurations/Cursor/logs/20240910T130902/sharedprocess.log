@@ -1,0 +1,38 @@
+2024-09-10 13:09:37.061 [info] Getting Manifest... vscodevim.vim
+2024-09-10 13:09:37.440 [info] Installing extension: vscodevim.vim {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/adi/.cursor/extensions/extensions.json","path":"/home/adi/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"0.40.4","date":"2024-09-05T02:52:05.660Z","vscodeVersion":"1.91.1"}}
+2024-09-10 13:09:37.477 [info] Started downloading extension: vscodevim.vim 1.28.1 file:///home/adi/.config/Cursor/CachedExtensionVSIXs/cursor-vscodevim.vim-1.28.1-universal
+2024-09-10 13:09:38.088 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorIu9A0M/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorIu9A0M/resources/app/out/bootstrap-fork.js
+2024-09-10 13:09:38.088 [info] Extension signature verification is not done: vscodevim.vim
+2024-09-10 13:09:38.121 [info] Extracted extension to file:///home/adi/.cursor/extensions/vscodevim.vim-1.28.1-universal: vscodevim.vim
+2024-09-10 13:09:38.124 [info] Renamed to /home/adi/.cursor/extensions/vscodevim.vim-1.28.1-universal
+2024-09-10 13:09:38.134 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/adi/.cursor/extensions/extensions.json
+2024-09-10 13:09:38.208 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/adi/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/adi/.cursor/extensions/extensions.json.vsctmp'
+    at l.create (/tmp/.mount_cursorIu9A0M/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19721)
+    at u (/tmp/.mount_cursorIu9A0M/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19831)
+    at S.hb (/tmp/.mount_cursorIu9A0M/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36592)
+    at S.stat (/tmp/.mount_cursorIu9A0M/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28940)
+    at async n.stat (/tmp/.mount_cursorIu9A0M/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14928)
+    at async Y.vb (/tmp/.mount_cursorIu9A0M/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:35838)
+2024-09-10 13:10:27.584 [info] Getting Manifest... vscodevim.vim
+2024-09-10 13:10:27.634 [info] Installing extension: vscodevim.vim {"productVersion":{"version":"0.40.4","date":"2024-09-05T02:52:05.660Z","vscodeVersion":"1.91.1"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/adi/.cursor/extensions/extensions.json","path":"/home/adi/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-10 13:10:27.662 [info] Started downloading extension: vscodevim.vim 1.28.1 file:///home/adi/.config/Cursor/CachedExtensionVSIXs/cursor-vscodevim.vim-1.28.1
+2024-09-10 13:10:27.912 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /tmp/.mount_cursorIu9A0M/resources/app/out/bootstrap-amd.js
+- /tmp/.mount_cursorIu9A0M/resources/app/out/bootstrap-fork.js
+2024-09-10 13:10:27.912 [info] Extension signature verification is not done: vscodevim.vim
+2024-09-10 13:10:27.942 [info] Extracted extension to file:///home/adi/.cursor/extensions/vscodevim.vim-1.28.1: vscodevim.vim
+2024-09-10 13:10:27.944 [info] Renamed to /home/adi/.cursor/extensions/vscodevim.vim-1.28.1
+2024-09-10 13:10:27.951 [info] Marked extension as uninstalled vscodevim.vim-1.28.1-universal
+2024-09-10 13:10:27.953 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/adi/.cursor/extensions/extensions.json
+2024-09-10 13:10:28.025 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/adi/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/adi/.cursor/extensions/extensions.json.vsctmp'
+    at l.create (/tmp/.mount_cursorIu9A0M/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19721)
+    at u (/tmp/.mount_cursorIu9A0M/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19831)
+    at S.hb (/tmp/.mount_cursorIu9A0M/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36592)
+    at S.stat (/tmp/.mount_cursorIu9A0M/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28940)
+    at async n.stat (/tmp/.mount_cursorIu9A0M/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14928)
+    at async Y.vb (/tmp/.mount_cursorIu9A0M/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:107:35838)
+2024-09-10 13:10:28.029 [info] Extensions added from another source vscodevim.vim vscode-userdata:/home/adi/.cursor/extensions/extensions.json

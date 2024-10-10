@@ -1,0 +1,76 @@
+import = [
+"~/.config/alacritty/nvim_export.toml"
+]
+[font]
+
+# ┌─────────────────┐
+# │		font style	  │
+# └─────────────────┘
+# normal = { family = "Maison Mono", style = "Regular" }  # Default for Linux/BSD: "monospace", Regular
+normal = { family = "Simple Nerd Font", style = "Regular" }
+
+# Bold font style
+bold = { style = "Bold" }  # Inherits family from normal, Default style: Bold
+
+# Italic font style
+italic = { style = "Italic" }  # Inherits family from normal, Default style: Italic
+
+# Bold Italic font style
+bold_italic = { style = "Bold Italic" }  # Inherits family from normal, Default style: Bold Italic
+
+# Font size in points
+size = 10  # laptop
+# size = 12  # laptop
+
+# Offset is extra space around each character
+offset = { x = 0, y = 30 }  # Default: x = 0, y = 0
+
+# Glyph offset determines the locations of the glyphs within their cells
+glyph_offset = { x = 0, y = 15 }  # Default: x = 0, y = 0
+
+# Use built-in font for box drawing characters
+builtin_box_drawing = true  # Default: true
+
+
+[[keyboard.bindings]]
+		action = "Quit"
+		key    = "W"
+		mods   = "Command|Shift"
+
+[[keyboard.bindings]]
+		action = "SpawnNewInstance"
+		key    = "N"
+		mods   = "Command"
+
+[[keyboard.bindings]]
+		chars = "\u001Bb"
+		key   = "Left"
+		mods  = "Alt"
+
+[[keyboard.bindings]]
+		chars = "\u001Bf"
+		key   = "Right"
+		mods  = "Alt"
+
+[[keyboard.bindings]]
+		chars = "\u0001" # Ctrl + a for tmux
+		key   = "A"
+		mods  = "Control"
+
+[[keyboard.bindings]]
+		chars = "\u0015"
+		key   = "Back"
+		mods  = "Command"
+
+
+[scrolling]
+		history    = 10000
+		multiplier = 4
+
+[selection]
+		save_to_clipboard     = true
+		semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+
+[env]
+TERM = "xterm-256color"

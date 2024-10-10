@@ -5,13 +5,18 @@ export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:/opt/cuda/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 export XDG_DATA_DIRS=/usr/share:/usr/local/share:/usr/share/applications:~/.local/share/applications:/etc/xdg
 
+export EDITOR=nvim
+export VISUAL=nvim
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
+# ZSH_THEME="murilasso"
+ZSH_THEME="itchy"
 # ZSH_THEME="nicoulaj"
-ZSH_THEME="gnzh"
+# ZSH_THEME="gnzh"
 # ZSH_THEME="random"
 
 # Set list of themes to pick from when loading at random
